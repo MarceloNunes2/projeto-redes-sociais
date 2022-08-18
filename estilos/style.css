@@ -28,15 +28,18 @@ section#telefone{
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
-    background:url(/imagens/frame-iphone.png)no-repeat;
-    
+    background:url('../imagens/frame-iphone.png')
+    no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
 }
 iframe#tela{
     position:relative;
     top: 80px;
     left: 23px;
-    width: 269px;
-    height: 471px;   
+    width: 267px;
+    height: 476px;   
 }
 section#redes-sociais{
     text-align: right;
@@ -54,5 +57,5 @@ section#redes-sociais img:hover{
     border: 4px solid rgba(22, 22, 22, 0.911);
     transform: translate(-5px -5px);
     box-shadow: 5px 5px 10px rgb(180, 233, 37);
-    transition: transform 3s, border .2s;
+    tranasition: transform 3s, border .2s;
 }
