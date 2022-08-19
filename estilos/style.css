@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+:root{
+    --fonte-rodape:'Silkscreen', cursive;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +14,8 @@ html,body{
     height: 100vh;
     width: 100vw;
     background-color: black;
+    overflow: auto;
+    
 }
 body{
     background: url('/imagens/fundo-madeira.jpg')no-repeat top center;
@@ -39,7 +47,7 @@ iframe#tela{
     top: 80px;
     left: 23px;
     width: 267px;
-    height: 476px;   
+    height: 471px;
 }
 section#redes-sociais{
     text-align: right;
@@ -58,4 +66,28 @@ section#redes-sociais img:hover{
     transform: translate(-5px -5px);
     box-shadow: 5px 5px 10px rgb(180, 233, 37);
     tranasition: transform 3s, border .2s;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;  
+}
+footer > p{
+    font-family: var(--fonte-rodape);
+}
+a{
+    font-weight: bolder;
+}
+p > a {
+    
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-rodape);
+    
+}
+footer > p > a:hover{
+    color: aqua;
+    font-family: var(--fonte-rodape);
+    text-decoration: underline;
+   
 }

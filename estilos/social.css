@@ -1,9 +1,14 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
+}
+:root{
+    --fonte1: 'Silkscreen', cursive;
 }
 
 ::-webkit-scrollbar{
@@ -17,15 +22,17 @@ img{
 }
 a{
     display: block;
-    background-color: rgba(238, 9, 55, 0.74);
-    padding: 20px;
+    background-color: rgba(250, 32, 75, 0.74);
+    color: wheat;
+    margin-top: -20px;
+    padding: 25px;
+    font-family: var(--fonte1);
     text-align: center;
     font-weight: bolder;
     text-decoration: none;
-    color: wheat;
-    margin: -10px;
-    
+   
+   
 }
 a:hover{
-    background-color:rgb(247, 5, 5);
+    background-color:rgb(243, 33, 33);
 }
